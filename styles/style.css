@@ -136,9 +136,19 @@ main section.about{
     border-radius: 4px;
     padding: 115px 157px;
 }
+main section.about .about-img{
+    margin-bottom: 2.5rem;
+}
+main section.about .about-img img{
+    width: 260px;
+    height: 430px;
+    border-radius: 6px;
+    object-fit: fill; 
+}
 main section.about h2.section-heading{
     margin-bottom: 30px;
     color: var(--dark);
+    border-radius: 30px;
 }
 main section.about p{
     font-size: 18px;
