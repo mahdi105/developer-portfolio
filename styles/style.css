@@ -262,15 +262,6 @@ hr{
     display: inline-block;
     text-decoration: none;
 }
-main section.about .about-img{
-    margin-bottom: 2.5rem;
-}
-main section.about .about-img img{
-    width: 260px;
-    height: 430px;
-    border-radius: 6px;
-    object-fit: contain; 
-}
 
 
 
