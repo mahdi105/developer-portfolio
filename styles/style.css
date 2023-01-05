@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+    background-color: none;
+    outline: none;
+    border: none;
+}
+/* Global Colors */
+:root{
+    --primary: #FD6E0A;
+    --secondary: #FFF8F3;
+    --heaven: #FFFFFF;
+    --dark: #181818;
+    --darklite:#474747;
+    --gray: #757575;
+}
+
+/* Utility Styles */
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+section{
+    padding: 6rem 0;
+    margin: 4rem 0;
+}
+.section-heading{
+    font-size: 35px;
+    line-height: 47.66px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.text-center{
+    text-align: center;
+}
+.text-primary{
+    color: var(--primary);
+}
+.bg-secondary{
+    background-color: var(--secondary);
+}
+.btn{
+    border: 1px solid var(--primary);
+    color: var(--primary);
+    font-size: 20px;
+    line-height: 27.24px;
+    font-weight: 700;
+    background-color: transparent;
+    display: inline-block;
+    padding: 18px 17px;
+    border-radius: 5px;
+}
+.btn-primary{
+    background: var(--primary);
+    color: var(--heaven);
+}
+.gap-4{
+    gap: 0 4rem;
+}
+.d-flex{
+    display: flex;
+}
+.flex{
+    flex: 1;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.align-center{
+    align-items: center;
+}
+.logo-title{
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 62.2px;
+    color: var(--dark);
+}
+
+/* Main Styles */
+header nav{
+    padding: 14px 0;
+}
+header nav ul.nav-menu{
+    list-style: none;
+}
+header nav ul.nav-menu li{
+    margin-left: 51px;
+    font-size: 20px;
+    line-height: 27px;
+    color: var(--darklite);
+    font-weight: 400;
+    font-style: normal;
+}
+header{
+    background-color: var(--secondary);
+    background-image: url(../images/hardy.png),url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: 95% 100%,bottom right, left;
+}
+header .banner{
+    width: 50%;
+    padding: 11rem 0;
+}
+header .banner .banner-sub-title{
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 62.28px;
+    color: var(--darklite);
+    margin-bottom: 5px;
+}
+header .banner h1.banner-title{
+    font-size: 85px;
+    font-weight: 700;
+    line-height: 115px;
+    margin-bottom: 7;
+}
+header .banner p.banner-description{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: var(--gray);
+    margin-bottom: 43px;
+}
+header .banner .banner-btn-group button:first-of-type{
+    margin-right: 30px;
+}
+/* Main Content Styles */
+
+main section.about{
+    border-radius: 4px;
+    padding: 115px 157px;
+}
+main section.about h2.section-heading{
+    margin-bottom: 30px;
+    color: var(--dark);
+}
+main section.about p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: var(--gray);
+    margin-bottom: 30px
+}
+main section.about .about-details-wrapper .about-details h5:first-of-type{
+    color: var(--gray);
+    font-weight: 400;
+}
+main section.about .about-details-wrapper .about-details h5{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    color: var(--darklite);
+    text-align: center;
+}
+main section.services p.service-description{
+    color: var(--gray);
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    padding: 0 7rem;
+    margin-bottom: 50px;
+}
+main section.services .services-card-wrapper{
+    gap: 0 24px;
+}
+main section.services .services-card-wrapper .service-card h3.card-title{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 20px;
+}
+main section.services .services-card-wrapper .service-card p{
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--gray);
+}
+main section.services .services-card-wrapper .service-card{
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    padding: 33px;
+}
+main section.services .services-card-wrapper .service-card .card-img{
+    margin-bottom: 30px;
+}
+main section.resume h2{
+    margin-bottom: 113px;
+}
+main section.resume table{
+    border-spacing: 34px;
+    margin-bottom: 50px;
+}
+main section.resume table thead th{
+    text-align: left;
+    font-size: 30px;
+    line-height: 40.85px;
+    color: var(--darklite);
+    padding-bottom: 30px;
+}
+main section.resume table tr td h3{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 34px;
+    color: var(--darklite);
+    text-align: left;
+    margin-bottom: 10px;
+}
+main section.resume table tr td h4{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: var(--gray);
+    text-align: left;
+    margin-bottom: 20px;
+}
+main section.resume table tr td p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--gray);
+    margin-bottom: 30px;
+}
+hr{
+    border: none;
+    height: 1px;
+    background-color: #D1D1D1;
+}
+.contact div{
+    flex-grow: 1;
+    flex-basis: 100%;
+}
+.contact h2{
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+.contact p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--darklite);
+    margin-bottom: 30px;
+}
+.contact form > input[type=text],input[type=email],textarea{
+    padding: 18px 30px;
+    margin-bottom: 24px;
+    width: 100%;
+    border-radius: 4px;
+    box-shadow: 0px 2px 50px rgba(0, 0, 0, 0.05);
+}
+.contact .footer-socials {
+    gap: 24px;
+}
+.contact .footer-socials a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+
+
+
